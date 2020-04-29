@@ -91,6 +91,16 @@ define( 'WP_DEBUG', false );
 define( 'WP_HOME', getenv( 'WP_HOME' ) );
 define( 'WP_SITEURL', getenv( 'WP_SITEURL' ) );
 
+/**
+ * Plugin definitions
+ *
+ * Anything added by plugins goes here - license keys, API credentials, and
+ * those kinds of things.
+ *
+ * @link https://docs.gravityforms.com/wp-config-options/#gf-license-key
+ */
+define( 'GF_LICENSE_KEY', getenv( 'GF_LICENSE_KEY' ) );
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
