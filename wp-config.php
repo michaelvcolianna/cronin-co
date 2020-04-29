@@ -98,8 +98,10 @@ define( 'WP_SITEURL', getenv( 'WP_SITEURL' ) );
  * those kinds of things.
  *
  * @link https://docs.gravityforms.com/wp-config-options/#gf-license-key
+ * @link https://deliciousbrains.com/wp-migrate-db-pro/doc/activating-license/
  */
 define( 'GF_LICENSE_KEY', getenv( 'GF_LICENSE_KEY' ) );
+define( 'WPMDB_LICENCE', getenv( 'WPMDB_LICENCE' ) );
 
 /* That's all, stop editing! Happy publishing. */
 
