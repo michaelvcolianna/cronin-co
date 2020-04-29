@@ -99,9 +99,27 @@ define( 'WP_SITEURL', getenv( 'WP_SITEURL' ) );
  *
  * @link https://docs.gravityforms.com/wp-config-options/#gf-license-key
  * @link https://deliciousbrains.com/wp-migrate-db-pro/doc/activating-license/
+ * @link https://deliciousbrains.com/wp-offload-media/doc/settings-constants/
  */
 define( 'GF_LICENSE_KEY', getenv( 'GF_LICENSE_KEY' ) );
 define( 'WPMDB_LICENCE', getenv( 'WPMDB_LICENCE' ) );
+define( 'AS3CF_SETTINGS', serialize( [
+    'provider' => 'aws',
+    'access-key-id' => getenv( 'AS3CF_ACCESS_KEY_ID' ),
+    'secret-access-key' => getenv( 'AS3CF_SECRET_ACCESS_KEY' ),
+    'bucket' => getenv( 'AS3CF_BUCKET' ),
+    'region' => getenv( 'AS3CF_REGION' ),
+    'copy-to-s3' => true,
+    'serve-from-s3' => true,
+    'domain' => 'path',
+    'cloudfront' => getenv( 'AS3CF_CLOUDFRONT' ),
+    'enable-object-prefix' => true,
+    'object-prefix' => 'wp-content/uploads/',
+    'use-yearmonth-folders' => true,
+    'force-https' => true,
+    'remove-local-file' => false,
+    'object-versioning' => true,
+]));
 
 /* That's all, stop editing! Happy publishing. */
 
