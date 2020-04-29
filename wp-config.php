@@ -103,6 +103,7 @@ define( 'WP_SITEURL', getenv( 'WP_SITEURL' ) );
  */
 define( 'GF_LICENSE_KEY', getenv( 'GF_LICENSE_KEY' ) );
 define( 'WPMDB_LICENCE', getenv( 'WPMDB_LICENCE' ) );
+define( 'AS3CFPRO_LICENCE', getenv( 'AS3CFPRO_LICENCE' ) );
 define( 'AS3CF_SETTINGS', serialize( [
     'provider' => 'aws',
     'access-key-id' => getenv( 'AS3CF_ACCESS_KEY_ID' ),
