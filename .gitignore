@@ -1,2 +1,3 @@
 .env
+/public/wp-content/cache
 /vendor

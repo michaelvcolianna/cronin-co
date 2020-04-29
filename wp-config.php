@@ -121,6 +121,8 @@ define( 'AS3CF_SETTINGS', serialize( [
     'remove-local-file' => false,
     'object-versioning' => true,
 ]));
+define( 'WP_CACHE', true );
+define( 'WPCACHEHOME', __DIR__ . '/public/wp-content/plugins/wp-super-cache/' );
 
 /* That's all, stop editing! Happy publishing. */
 
