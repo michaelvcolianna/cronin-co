@@ -101,6 +101,7 @@ define( 'WP_SITEURL', getenv( 'WP_SITEURL' ) );
  * @link https://deliciousbrains.com/wp-migrate-db-pro/doc/activating-license/
  * @link https://deliciousbrains.com/wp-offload-media/doc/settings-constants/
  */
+define( 'ACF_PRO_LICENSE', getenv( 'ACF_PRO_LICENSE' ) );
 define( 'GF_LICENSE_KEY', getenv( 'GF_LICENSE_KEY' ) );
 define( 'WPMDB_LICENCE', getenv( 'WPMDB_LICENCE' ) );
 define( 'AS3CFPRO_LICENCE', getenv( 'AS3CFPRO_LICENCE' ) );
